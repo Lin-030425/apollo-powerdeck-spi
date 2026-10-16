@@ -1,0 +1,29 @@
+.DS_Store
+.metadata/
+.vscode/
+
+# ESP-IDF outputs
+build/
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# STM32CubeIDE outputs
+Debug/
+Release/
+*.launch.log
+
+# Compiler and firmware outputs
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Editor and temporary files
+*.swp
+*.tmp
+*~
